@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/FakeShop_react-router-dom/static/css/main.48d21da6.css",
-    "main.js": "/FakeShop_react-router-dom/static/js/main.61a6bed2.js",
+    "main.js": "/FakeShop_react-router-dom/static/js/main.ce0d6a12.js",
     "static/media/logo.png": "/FakeShop_react-router-dom/static/media/logo.f743843af88ef86e9464.png",
     "index.html": "/FakeShop_react-router-dom/index.html",
     "main.48d21da6.css.map": "/FakeShop_react-router-dom/static/css/main.48d21da6.css.map",
-    "main.61a6bed2.js.map": "/FakeShop_react-router-dom/static/js/main.61a6bed2.js.map"
+    "main.ce0d6a12.js.map": "/FakeShop_react-router-dom/static/js/main.ce0d6a12.js.map"
   },
   "entrypoints": [
     "static/css/main.48d21da6.css",
-    "static/js/main.61a6bed2.js"
+    "static/js/main.ce0d6a12.js"
   ]
 }
