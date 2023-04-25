@@ -1,0 +1,13 @@
+.products_title {
+  text-align: center;
+  color: rgb(112, 80, 126);
+}
+
+.products_page {
+  padding: 50px 20px;
+}
+
+.products_container {
+  max-width: 1200px;
+  margin: 0 auto;
+}

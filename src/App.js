@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import "./app.css";
+import Footer from "./components/footer/footer";
+import Header from "./components/header/header";
+import HomePage from "./pages/home/homePage";
+import NotFoundPage from "./pages/notFoundPage/notFoundPage";
+import ProductsPage from "./pages/products/productsPage";
+import ProductsItemPage from "./pages/productsItemPage/productsItemPage";
+// import { Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      {/* <HashRouter hashType="hashbang"> */}
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/products" element={<ProductsPage />} />
+          <Route path="/products/:id" element={<ProductsItemPage />} />
+          <Route path="*" element={<NotFoundPage />} />
+        </Routes>
+      </Router>
+      {/* </HashRouter> */}
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
