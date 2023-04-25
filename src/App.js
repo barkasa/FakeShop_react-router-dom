@@ -11,18 +11,20 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 const App = () => {
   return (
     <div>
-      <Header />
-      {/* <HashRouter hashType="hashbang"> */}
       <Router>
+        <Header />
+        {/* <HashRouter hashType="hashbang"> */}
+
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/products" element={<ProductsPage />} />
           <Route path="/products/:id" element={<ProductsItemPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
+
+        {/* </HashRouter> */}
+        <Footer />
       </Router>
-      {/* </HashRouter> */}
-      <Footer />
     </div>
   );
 };
