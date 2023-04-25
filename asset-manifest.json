@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/FakeShop_react-router-dom/static/css/main.48d21da6.css",
+    "main.js": "/FakeShop_react-router-dom/static/js/main.6245b321.js",
+    "static/media/logo.png": "/FakeShop_react-router-dom/static/media/logo.f743843af88ef86e9464.png",
+    "index.html": "/FakeShop_react-router-dom/index.html",
+    "main.48d21da6.css.map": "/FakeShop_react-router-dom/static/css/main.48d21da6.css.map",
+    "main.6245b321.js.map": "/FakeShop_react-router-dom/static/js/main.6245b321.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48d21da6.css",
+    "static/js/main.6245b321.js"
+  ]
+}
